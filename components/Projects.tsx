@@ -23,7 +23,7 @@ export default function Projects({}: Props) {
             snap-mandatory z-20 '>
                 {projects.map((projects, i) => (
                     <div className='w-screen flex-shrink-0 snap-center flex flex-col 
-                    space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+                    space-y-5 items-center justify-center p-20 md:p-44 h-screen' key={i}>
                         <motion.img 
                         initial={{
                             y:-300,
